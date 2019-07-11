@@ -1,0 +1,16 @@
+
+6python:S1110" Remove those useless parentheses(¯ÅéÂ
+6python:S1110" Remove those useless parentheses(†ãÖ
+vpython:S104"gFile "crontab.py" has 1,349 lines, which is greater than 1,000 authorized. Split it into smaller files.
+4python:S125"Remove this commented out code.(…Óµ•
+^python:S100"IRename method "on" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•³Ý•
+Epython:S1066"/Merge this if statement with the enclosing one.(š†á–
+Epython:S1066"/Merge this if statement with the enclosing one.(Þïåá
+>python:S108")Either remove or fill this block of code.(ã‘Û¾
+;python:S1110" Remove those useless parentheses(ÃúíŒøÿÿÿÿ
+6python:S1110" Remove those useless parentheses(þðÿÙ
+Jpython:S1066"/Merge this if statement with the enclosing one.(¶¥ì÷øÿÿÿÿ
+6python:S1110" Remove those useless parentheses(ÙÊˆ£
+6python:S1110" Remove those useless parentheses(í÷ÁÙ
+cpython:S100"IRename method "on" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¤…í×þÿÿÿÿ
+6python:S1110" Remove those useless parentheses(žËÓ¼
