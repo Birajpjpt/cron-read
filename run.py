@@ -14,11 +14,11 @@ if __name__ == "__main__":
         if not CronSlices.is_valid(cron_expr):
             sys.exit('Invalid Cron Expression')
         time_field_list = cron_expr.split(' ')
-        mins_list = cron_obj.get_min(time_field_list[0])
-        hour_list = cron_obj.get_hour(time_field_list[1])
-        day_list = cron_obj.get_day(time_field_list[2])
-        month_list = cron_obj.get_month(time_field_list[3])
-        dow_list = cron_obj.get_dow(time_field_list[4])
+        mins_list = cron_obj.get_cron_value(time_field_list[0], 'min')
+        hour_list = cron_obj.get_cron_value(time_field_list[1], 'hour')
+        day_list = cron_obj.get_cron_value(time_field_list[2], 'day')
+        month_list = cron_obj.get_cron_value(time_field_list[3], 'month')
+        dow_list = cron_obj.get_cron_value(time_field_list[4], 'dow')
 
         min_field = "minutes".ljust(14)
         hr_field = "hour".ljust(14)

@@ -47,6 +47,11 @@ class Extractor:
         else:
             return 'Error'
 
+    def extract_all_values(self, time_unit):
+        """expr should be *, valid time units (min, hour, day, month, dow)"""
+        extracted_value = list(range(self._lower_upper_value(time_unit)[0], self._lower_upper_value(time_unit)[1] + 1))
+        return extracted_value
+
     def _lower_upper_value(self, time_unit):
         if time_unit in ['min', 'hour']:
             return 0, self.time_unit_max[time_unit] - 1

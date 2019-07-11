@@ -48,5 +48,10 @@ class TestExtractor(unittest.TestCase):
     def test_extract_specific_num(self):
         self.assertEqual(self.extractor.extract_list_obj('0', 'hour'), [0])
 
+    def test_extract_all_values(self):
+        self.assertEqual(self.extractor.extract_all_values('dow'), [1, 2, 3, 4, 5, 6, 7])
+        self.assertEqual(self.extractor.extract_all_values('hour'), list(range(0, 24)))
+
+
 if __name__ == '__main__':
     unittest.main()
